@@ -26,7 +26,7 @@ Outputs "cannot find AVB magic", despite vbmeta file being valid.
 
 Solution: Downgrade the Android tools version to 35.0.0 or older.
 
-Use the following command to disable secure boot:
+Use the following command to enter a temporary shell with downgraded android tools for disabling secure boot:
 
 ```bash
 nix shell github:NixOS/nixpkgs/01e9ba9666a3fb1376258c5b6cad75fa1dd561c#android-tools
