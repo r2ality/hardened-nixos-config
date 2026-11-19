@@ -6,8 +6,32 @@
 4. Systemd boot
 5. Ly display manager/greeter
 6. Alacritty config
-7. And more.
+7. Android tools (fastboot, adb)
+8. Programming languages and compilers
+9. And more.
 
-You are free to edit anything to your liking.
+You are free to edit, remove and add anything to your liking.
 
-This is a very simple config.
+This is a very simple config for my specific workflow.
+
+## IMPORTANT: ANDROID TOOLS UNSTABLE
+
+The unstable version of **Android tools** has an issue where command
+
+```bash
+fastboot --disable-verity --disable-verification flash vbmeta <file>.img
+```
+
+Outputs "cannot find AVB magic", despite vbmeta file being valid.
+
+Solution: Downgrade the Android tools version to 35.0.0 or older.
+
+Use the following command to disable secure boot:
+
+```bash
+nix shell github:NixOS/nixpkgs/01e9ba9666a3fb1376258c5b6cad75fa1dd561c#android-tools
+```
+
+For flashing GSIs and other custom firmware into your android device.
+
+In my testing, all other commands work normally.
