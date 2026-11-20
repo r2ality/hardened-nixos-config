@@ -8,7 +8,8 @@
 6. Alacritty config
 7. Android tools (fastboot, adb)
 8. Programming languages and compilers
-9. And more.
+9. Simple boot/encryption/shutdown through Plymouth.
+10. And more.
 
 You are free to edit, remove and add anything to your liking.
 
