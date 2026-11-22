@@ -1,4 +1,8 @@
-# What's included in this config
+# Main NixOS dotfiles
+
+Main dotfiles for my PC, a few differences compared to the [thinkpad config.](https://github.com/r2ality/thinkpad-dotfiles)
+
+## What's included in this config
 
 1. Wayland
 2. Niri, see [Niri config](https://github.com/r2ality/niri-config)
