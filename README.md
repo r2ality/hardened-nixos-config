@@ -1,4 +1,4 @@
-# Main NixOS dotfiles
+# Hardened NixOS dotfiles
 
 Main dotfiles for my PC, a few differences compared to the [thinkpad config.](https://github.com/r2ality/thinkpad-dotfiles)
 
@@ -13,11 +13,14 @@ Main dotfiles for my PC, a few differences compared to the [thinkpad config.](ht
 7. Android tools (fastboot, adb)
 8. Programming languages and compilers
 9. Simple boot/encryption/shutdown through Plymouth.
-10. And more.
+10. Security through hardened.nix module.
+11. And more.
 
 You are free to edit, remove and add anything to your liking.
 
 This is a very simple config for my specific workflow.
+
+**This does not make your computer unexploitable.** You may need to change things manually in the BIOS to make it more secure and others.
 
 ## IMPORTANT: ANDROID TOOLS UNSTABLE
 
