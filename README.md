@@ -22,6 +22,18 @@ This is a very simple config for my specific workflow.
 
 **This does not make your computer unexploitable.** You may need to change things manually in the BIOS to make it more secure and others.
 
+## The goal
+
+The goal is to make a good-looking, minimalist and secure NixOS configuration, with Wayland, Plymouth, and others.
+
+This doesn't pack [linux-hardened kernel modifications](https://github.com/anthraxx/linux-hardened), as it has been deprecated in nixpkgs.
+
+## Interesting options
+
+[Finix](https://github.com/finix-community/finix)
+[QubesOS](https://www.qubes-os.org)
+[Tails](https://tails.net)
+
 ## IMPORTANT: ANDROID TOOLS UNSTABLE
 
 The unstable version of **Android tools** has an issue where command
