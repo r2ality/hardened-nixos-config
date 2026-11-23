@@ -12,11 +12,17 @@
   boot.loader.efi.canTouchEfiVariables = true;
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
+  # Hardware UPD & Sandboxing
+  hardware.cpu.intel.updateMicrocode = true;
+  # hardware.cpu.amd.updateMicrocode = true;   # AMD systems
+  nix.settings.sandbox = true;
+
   networking.hostName = "nixos";
 
   # Networking
   networking.networkmanager.enable = true;
   services.mullvad-vpn.enable = true;
+  networking.firewall.enable = true;
 
   # Time zone
   time.timeZone = "America/Sao_Paulo";
