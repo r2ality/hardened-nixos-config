@@ -12,7 +12,7 @@ Main dotfiles for my PC, a few differences compared to the [thinkpad config.](ht
 6. Alacritty config
 7. Android tools (fastboot, adb)
 8. Programming languages and compilers
-9. Simple boot/encryption/shutdown through Plymouth.
+9. Simple boot/encryption screen/shutdown through Plymouth.
 10. Security through hardened.nix module.
 11. And more.
 
