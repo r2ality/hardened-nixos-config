@@ -4,6 +4,7 @@
   imports = [
     ./programs.nix
     ./packages.nix
+    ./hardened.nix
     ./boot.nix
   ];
 
