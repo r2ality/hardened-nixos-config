@@ -53,9 +53,14 @@
     ];
   };
 
-  # Allow sudo for wheel
-  security.sudo.wheelNeedsPassword = true;
-  nixpkgs.config.allowUnfree = true;
+  # Doas
+  security.doas.enable = true;
+  security.sudo.enable = false;
+  security.doas.wheelNeedsPassword = true;
+  security.doas.extraRules = [{
+        keepEnv = true;
+        persist = true;
+ }];
 
   # Nix settings
   nix.settings.experimental-features = [
