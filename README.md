@@ -5,7 +5,7 @@ Main dotfiles for my PC, a few differences compared to the [thinkpad config.](ht
 ## What's included in this config
 
 1. Wayland
-2. Niri, see [Niri config](https://github.com/r2ality/niri-config)
+2. Niri, see [Niri dotfiles](https://github.com/r2ality/niri-dotfiles)
 3. Lightweight, simple config
 4. Systemd boot
 5. Ly display manager/greeter
