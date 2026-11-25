@@ -14,7 +14,8 @@ Main dotfiles for my PC, a few differences compared to the [thinkpad config.](ht
 8. Programming languages and compilers
 9. Simple boot/encryption screen/shutdown through Plymouth.
 10. Security through hardened.nix module.
-11. And more.
+11. Doas instead of sudo.
+12. And more.
 
 You are free to edit, remove and add anything to your liking.
 
