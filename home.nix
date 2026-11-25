@@ -23,7 +23,7 @@
     syntaxHighlighting.enable = true;
     shellAliases = {
       ll = "eza -lah";
-      nrs = "sudo nixos-rebuild switch --flake /etc/nixos#lynn";
+      nrs = "doas nixos-rebuild switch --flake /etc/nixos#lynn";
     };
 	initContent = ''
 	export PROMPT="@%d ➣ "
